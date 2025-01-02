@@ -11,8 +11,10 @@ tasks.append(task)
 while True:
     a = input("Add Tasks? [Y/N]")
     if a == "y":
-        print(task)
+        print(input("Add Task: "))
         tasks.append
+    elif a == "n":
+        print(tasks)
 
 
 #res = [{val: key for key, val in enumerate(
